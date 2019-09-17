@@ -1,0 +1,79 @@
+---
+title: "stat210hw09-16"
+author: "Emily Beasley"
+date: "9/16/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x <- 1 / 13 * 56
+sin(x)
+y <- (36 + 78 - 1576) / 2
+cos(y)
+sin(pi /2)
+my_name_is_emily_and_i_aint_gonna_change_it <- 3
+my_name_is_emily_and_i_aint_gonna_change_it + 5
+```
+
+```{r}
+#Why does this code not work?
+
+my_variable <- 10
+#my_varıable
+```
+
+^For above: `it looks like there's no bleeping dot on the i which is why it wont code properly. I could be wrong, but I don't think I am. I had to comment it out though in order for me to knit.`
+
+
+`**pressing ALT + SHIFT+ K is the most incredible thing I've learned so far in R! That's so cool and convenient!**` 
+
+####the short-cut given in chapter 6 about creating more workspace is not working for me as an 'Incognito' browser page opens up each time.
+
+```{r}
+x <- "cats"
+y <- "I love"
+paste(y, x)
+
+#here I used the Cmd + Enter key to run the three codes
+```
+
+```{r}
+#example with that block
+#library(dplyr)
+#library(nycflights13)
+#not_cancelled <- flights %>%
+# filter(!is.na(dep_delay)█, !is.na(arr_delay))
+
+#not_cancelled %>% 
+# group_by(year, month, day) %>% 
+#summarise(mean = mean(dep_delay))#
+```
+
+```{r}
+#example without that block
+#library(dplyr)
+#library(nycflights13)
+#not_cancelled <- flights %>%
+
+#not_cancelled %>% 
+# group_by(year, month, day) %>% 
+#summarise(mean = mean(dep_delay))
+```
+
+I see here that both codes do not run. I'm not sure why though. I don't fully understand what that block does, too. I COMMENTED THEM OUT so that the Rmd would knit. 
+
+#I went to Rstudio Tips on Twitter and...
+I discovered the fact that you can easily access a list of all functions in the open script that can "easily" be navigated. In the video that was shown it looked like I needed to press the last tab or 'button' on the very right of the the bar above^. However, so far it only shows the sentences preceding the #'s.
+
+```{r}
+x <- c(1, 2, 5, 6, 7)
+mean(x)
+```
+
+Confirmed, new shortuct learned on Twitter is not necessarily for functions. (Not _really_ confirmed but so far...from what I am learning...it is).
+
+
